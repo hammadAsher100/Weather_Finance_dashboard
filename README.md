@@ -176,8 +176,6 @@ Real-time Updates - Auto-refresh functionality
 🚀 Deployment
 This project is deployed on Streamlit Community Cloud:
 
-URL: https://hackathontask.streamlit.app/
-
 Platform: Streamlit Community Cloud
 
 Status: Live & Active
@@ -219,4 +217,3 @@ Contact: **[Hammad Asher](mailto:hammadasher06@gmail.com)**
 
 ⭐ Star this repo if you find it helpful!
 
-🔗 Live Demo: https://hackathontask.streamlit.app/
