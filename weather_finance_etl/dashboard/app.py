@@ -279,10 +279,7 @@ def main():
         finance_dashboard()
     else:
         combined_dashboard()
-        
-    show_demo_banner()  # Add this line
-    st.markdown('<h1 class="main-header">🌤️📈 Weather & Finance Analytics Dashboard</h1>', unsafe_allow_html=True)
-    # ... rest of your main function
+
 def weather_dashboard():
     st.header("🌤️ Weather Dashboard")
     
@@ -443,26 +440,5 @@ def combined_dashboard():
                 st.write(f"- Total Records: {len(finance_df)}")
                 st.write(f"- Date Range: {finance_df['datetime'].min().strftime('%Y-%m-%d')} to {finance_df['datetime'].max().strftime('%Y-%m-%d')}")
 
-# Demo mode banner
-def show_demo_banner():
-    if 'show_demo_banner' not in st.session_state:
-        st.session_state.show_demo_banner = True
-    
-    if st.session_state.show_demo_banner:
-        st.markdown("""
-        <div style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); 
-                    padding: 1rem; border-radius: 10px; color: white; margin-bottom: 1rem;">
-            <h4 style="color: white; margin: 0;">🚀 DEMO MODE - Using Sample Data</h4>
-            <p style="color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0;">
-                This is a live demo with sample data. For real-time data, add API keys in settings.
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        if st.button("Got it!", key="demo_banner"):
-            st.session_state.show_demo_banner = False
-            st.rerun()
-            
 if __name__ == "__main__":
     main()
-    
