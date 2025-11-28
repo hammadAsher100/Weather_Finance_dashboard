@@ -217,4 +217,3 @@ Contact: **[Hammad Asher](mailto:hammadasher06@gmail.com)**
 
 ⭐ Star this repo if you find it helpful!
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_l913kml913kml913" src="https://github.com/user-attachments/assets/dbaff470-d190-4772-8fb6-4a6aa5f93ce0" />
